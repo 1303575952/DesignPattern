@@ -1,5 +1,7 @@
 package proxy.staticProxy;
-
+/*
+ * Î¯ÍÐÀà
+ */
 public class BookImpl implements BookInterface {
 
 	@Override
