@@ -1,0 +1,7 @@
+package adapter;
+/*
+ * Èý½Ç²åÍ·³äµç
+ */
+public interface ThreePinPlug {
+	void charge();
+}
