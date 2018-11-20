@@ -1,7 +1,7 @@
 package com.felix.design.principle.singleresponsibility;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class Bird {
     public void mainMoveMode(String birdName){

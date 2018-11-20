@@ -1,35 +1,35 @@
 package com.felix.design.principle.singleresponsibility;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class Method {
-    private void updateUserInfo(String userName,String address){
-        userName = "geely";
+    private void updateUserInfo(String userName, String address) {
+        userName = "felix";
         address = "beijing";
     }
 
-    private void updateUserInfo(String userName,String... properties){
-        userName = "geely";
+    private void updateUserInfo(String userName, String... properties) {
+        userName = "felix";
 //        address = "beijing";
     }
 
-    private void updateUsername(String userName){
-        userName = "geely";
+    private void updateUsername(String userName) {
+        userName = "felix";
     }
-    private void updateUserAddress(String address){
+
+    private void updateUserAddress(String address) {
         address = "beijing";
     }
 
-    private void updateUserInfo(String userName,String address,boolean bool){
-        if(bool){
+    private void updateUserInfo(String userName, String address, boolean bool) {
+        if (bool) {
             //todo something1
-        }else{
+        } else {
             //todo something2
         }
 
-
-        userName = "geely";
+        userName = "felix";
         address = "beijing";
     }
 
