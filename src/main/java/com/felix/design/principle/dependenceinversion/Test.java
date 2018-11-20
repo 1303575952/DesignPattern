@@ -1,39 +1,37 @@
 package com.felix.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class Test {
 
     //v1
 //    public static void main(String[] args) {
-//        Geely geely = new Geely();
-//        geely.studyJavaCourse();
-//        geely.studyFECourse();
+//        Felix felix = new felix();
+//        felix.studyJavaCourse();
+//        felix.studyFECourse();
 //    }
 
     //v2
 //    public static void main(String[] args) {
-//        Geely geely = new Geely();
-//        geely.studyImoocCourse(new JavaCourse());
-//        geely.studyImoocCourse(new FECourse());
-//        geely.studyImoocCourse(new PythonCourse());
+//        felix felix = new felix();
+//        felix.studyImoocCourse(new JavaCourse());
+//        felix.studyImoocCourse(new FECourse());
+//        felix.studyImoocCourse(new PythonCourse());
 //    }
 
     //v3
 //    public static void main(String[] args) {
-//        Geely geely = new Geely(new JavaCourse());
-//        geely.studyImoocCourse();
+//        Felix felix = new felix(new JavaCourse());
+//        felix.studyImoocCourse();
 //    }
     public static void main(String[] args) {
-        Geely geely = new Geely();
-        geely.setiCourse(new JavaCourse());
-        geely.studyImoocCourse();
+        Felix felix = new Felix();
+        felix.setiCourse(new JavaCourse());
+        felix.studyImoocCourse();
 
-        geely.setiCourse(new FECourse());
-        geely.studyImoocCourse();
+        felix.setiCourse(new FECourse());
+        felix.studyImoocCourse();
 
     }
-
-
 }

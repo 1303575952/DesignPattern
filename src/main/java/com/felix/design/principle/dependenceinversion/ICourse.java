@@ -1,7 +1,7 @@
 package com.felix.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public interface ICourse {
     void studyCourse();

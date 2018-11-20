@@ -1,25 +1,16 @@
 package com.felix.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * Created by felix
  */
-public class Geely {
+public class Felix {
+    private ICourse iCourse;
 
     public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }
 
-    private ICourse iCourse;
-
-
-
-    public void studyImoocCourse(){
+    public void studyImoocCourse() {
         iCourse.studyCourse();
     }
-
-
-
-
-
-
 }

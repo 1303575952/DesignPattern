@@ -1,12 +1,12 @@
 package com.felix.design.principle.dependenceinversion;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class FECourse implements ICourse {
     @Override
     public void studyCourse() {
-        System.out.println("Geely在学习FE课程");
+        System.out.println("felix在学习FE课程");
     }
 
 }
