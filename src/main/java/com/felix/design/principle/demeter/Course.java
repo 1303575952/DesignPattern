@@ -1,7 +1,7 @@
 package com.felix.design.principle.demeter;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class Course {
 }
