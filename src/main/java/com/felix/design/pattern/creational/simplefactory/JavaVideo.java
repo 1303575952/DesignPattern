@@ -1,7 +1,7 @@
 package com.felix.design.pattern.creational.simplefactory;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class JavaVideo extends Video {
     @Override
