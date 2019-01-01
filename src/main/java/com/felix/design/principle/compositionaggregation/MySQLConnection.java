@@ -1,7 +1,7 @@
 package com.felix.design.principle.compositionaggregation;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class MySQLConnection extends DBConnection {
     @Override
