@@ -1,7 +1,7 @@
 package com.felix.design.pattern.creational.builder.v2;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class Course {
 
@@ -33,7 +33,7 @@ public class Course {
                 '}';
     }
 
-    public static class CourseBuilder{
+    public static class CourseBuilder {
         private String courseName;
         private String coursePPT;
         private String courseVideo;
@@ -42,7 +42,7 @@ public class Course {
         //question & answer
         private String courseQA;
 
-        public CourseBuilder buildCourseName(String courseName){
+        public CourseBuilder buildCourseName(String courseName) {
             this.courseName = courseName;
             return this;
         }
@@ -68,10 +68,9 @@ public class Course {
             return this;
         }
 
-        public Course build(){
+        public Course build() {
             return new Course(this);
         }
-
 
 
     }
