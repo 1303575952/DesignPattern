@@ -1,7 +1,7 @@
 package com.felix.design.pattern.creational.factorymethod;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class FEVideoFactory extends VideoFactory{
     @Override
