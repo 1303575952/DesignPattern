@@ -1,21 +1,22 @@
 package com.felix.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class ThreadLocalInstance {
     private static final ThreadLocal<ThreadLocalInstance> threadLocalInstanceThreadLocal
-             = new ThreadLocal<ThreadLocalInstance>(){
+            = new ThreadLocal<ThreadLocalInstance>() {
         @Override
         protected ThreadLocalInstance initialValue() {
             return new ThreadLocalInstance();
         }
     };
-    private ThreadLocalInstance(){
+
+    private ThreadLocalInstance() {
 
     }
 
-    public static ThreadLocalInstance getInstance(){
+    public static ThreadLocalInstance getInstance() {
         return threadLocalInstanceThreadLocal.get();
     }
 

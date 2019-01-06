@@ -1,21 +1,32 @@
 package com.felix.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class LazySingleton {
     private static LazySingleton lazySingleton = null;
-    private LazySingleton(){
-        if(lazySingleton != null){
+
+    private LazySingleton() {
+        if (lazySingleton != null) {
             throw new RuntimeException("单例构造器禁止反射调用");
         }
     }
-    public synchronized static LazySingleton getInstance(){
-        if(lazySingleton == null){
+
+    public synchronized static LazySingleton getInstance() {
+        if (lazySingleton == null) {
             lazySingleton = new LazySingleton();
         }
         return lazySingleton;
     }
+
+//    public static LazySingleton getInstance() {
+//        synchronized (LazySingleton.class) {
+//            if (lazySingleton == null) {
+//                lazySingleton = new LazySingleton();
+//            }
+//        }
+//        return lazySingleton;
+//    }
 
 //    public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchFieldException {
 //        Class objectClass = LazySingleton.class;

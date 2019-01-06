@@ -1,15 +1,17 @@
 package com.felix.design.pattern.creational.singleton;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public enum EnumInstance {
-    INSTANCE{
-        protected  void printTest(){
-            System.out.println("Geely Print Test");
+    INSTANCE {
+        protected void printTest() {
+            System.out.println("Felix Print Test");
         }
     };
+
     protected abstract void printTest();
+
     private Object data;
 
     public Object getData() {
@@ -19,7 +21,8 @@ public enum EnumInstance {
     public void setData(Object data) {
         this.data = data;
     }
-    public static EnumInstance getInstance(){
+
+    public static EnumInstance getInstance() {
         return INSTANCE;
     }
 
