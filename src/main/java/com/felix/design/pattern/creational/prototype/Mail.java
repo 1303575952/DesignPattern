@@ -1,13 +1,14 @@
 package com.felix.design.pattern.creational.prototype;
 
 /**
- * Created by geely
+ * Created by felix
  */
-public class Mail implements Cloneable{
+public class Mail implements Cloneable {
     private String name;
     private String emailAddress;
     private String content;
-    public Mail(){
+
+    public Mail() {
         System.out.println("Mail Class Constructor");
     }
 
@@ -41,7 +42,7 @@ public class Mail implements Cloneable{
                 "name='" + name + '\'' +
                 ", emailAddress='" + emailAddress + '\'' +
                 ", content='" + content + '\'' +
-                '}'+super.toString();
+                '}' + super.toString();
     }
 
     @Override

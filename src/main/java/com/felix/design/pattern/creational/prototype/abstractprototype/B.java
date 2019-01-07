@@ -1,7 +1,7 @@
 package com.felix.design.pattern.creational.prototype.abstractprototype;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class B extends A {
     public static void main(String[] args) throws CloneNotSupportedException {
