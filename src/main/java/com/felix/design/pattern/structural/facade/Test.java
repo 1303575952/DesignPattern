@@ -1,7 +1,7 @@
 package com.felix.design.pattern.structural.facade;
 
 /**
- * Created by geely
+ * Created by felix
  */
 public class Test {
     public static void main(String[] args) {
