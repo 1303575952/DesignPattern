@@ -1,4 +1,4 @@
-package com.felix.design.principle.interfacesegregation;
+package com.felix.design.principle.interfacesegregation.version_init;
 
 /**
  * Created by felix
