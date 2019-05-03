@@ -1,4 +1,4 @@
-package com.felix.design.principle.singleresponsibility;
+package com.felix.design.principle.singleresponsibility.version_1;
 
 /**
  * Created by felix

@@ -1,14 +1,10 @@
-package com.felix.design.principle.singleresponsibility;
+package com.felix.design.principle.singleresponsibility.version_class_final;
 
 /**
  * Created by felix
  */
 public class Test {
     public static void main(String[] args) {
-//        Bird bird = new Bird();
-//        bird.mainMoveMode("大雁");
-//        bird.mainMoveMode("鸵鸟");
-
         FlyBird flyBird = new FlyBird();
         flyBird.mainMoveMode("大雁");
 
