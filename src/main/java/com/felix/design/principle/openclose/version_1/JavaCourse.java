@@ -1,4 +1,4 @@
-package com.felix.design.principle.openclose;
+package com.felix.design.principle.openclose.version_1;
 
 /**
  * Created by felix
@@ -23,7 +23,7 @@ public class JavaCourse implements ICourse {
     }
 
     public Double getPrice() {
-        return this.price;
+        return this.price * 0.8;
     }
 
 }
