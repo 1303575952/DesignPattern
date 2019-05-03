@@ -1,12 +1,13 @@
-package com.felix.design.principle.dependenceinversion;
+package com.felix.design.principle.dependenceinversion.version_final_2;
 
 /**
  * Created by felix
  */
 public class Felix {
-    private ICourse iCourse;
 
-    public void setiCourse(ICourse iCourse) {
+    ICourse iCourse;
+
+    public Felix(ICourse iCourse) {
         this.iCourse = iCourse;
     }
 
