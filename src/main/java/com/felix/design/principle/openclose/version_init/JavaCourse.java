@@ -1,4 +1,4 @@
-package com.felix.design.principle.openclose.version_1;
+package com.felix.design.principle.openclose.version_init;
 
 /**
  * Created by felix
@@ -22,9 +22,9 @@ public class JavaCourse implements ICourse {
         return this.name;
     }
 
-    //需要计算打折后价格
+    //初始价格
     public Double getPrice() {
-        return this.price * 0.8;
+        return this.price;
     }
 
 }
