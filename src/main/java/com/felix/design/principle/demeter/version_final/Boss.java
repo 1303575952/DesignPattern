@@ -1,4 +1,4 @@
-package com.felix.design.principle.demeter;
+package com.felix.design.principle.demeter.version_final;
 
 
 /**
