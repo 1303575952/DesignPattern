@@ -1,4 +1,4 @@
-package com.felix.design.principle.compositionaggregation;
+package com.felix.design.principle.compositionaggregation.version_final;
 
 /**
  * Created by felix
