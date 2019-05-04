@@ -1,4 +1,4 @@
-package com.felix.design.pattern.creational.simplefactory;
+package com.felix.design.pattern.creational.simplefactory.version_final;
 
 /**
  * Created by felix
