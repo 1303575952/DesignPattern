@@ -1,4 +1,4 @@
-package com.felix.design.pattern.creational.factorymethod;
+package com.felix.design.pattern.creational.factorymethod.version_final;
 
 /**
  * Created by felix
