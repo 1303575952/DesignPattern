@@ -1,18 +1,16 @@
-package com.felix.design.principle.liskovsubstitution;
+package com.felix.design.principle.liskovsubstitution.version_1;
 
 /**
  * Created by geely
  */
-public class Rectangle implements Quadrangle {
+public class Rectangle {
     private long length;
     private long width;
 
-    @Override
     public long getWidth() {
         return width;
     }
 
-    @Override
     public long getLength() {
         return length;
     }

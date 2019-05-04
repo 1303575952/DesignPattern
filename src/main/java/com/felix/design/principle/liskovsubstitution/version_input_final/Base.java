@@ -1,9 +1,9 @@
-package com.felix.design.principle.liskovsubstitution.methodinput;
+package com.felix.design.principle.liskovsubstitution.version_input_final;
 
 import java.util.HashMap;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Base {
     public void method(HashMap map){

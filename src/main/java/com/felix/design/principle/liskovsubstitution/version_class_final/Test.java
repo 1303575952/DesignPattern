@@ -1,7 +1,7 @@
-package com.felix.design.principle.liskovsubstitution;
+package com.felix.design.principle.liskovsubstitution.version_class_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Test {
     public static void resize(Rectangle rectangle){

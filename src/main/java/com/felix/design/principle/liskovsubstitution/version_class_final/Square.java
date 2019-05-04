@@ -1,4 +1,4 @@
-package com.felix.design.principle.liskovsubstitution;
+package com.felix.design.principle.liskovsubstitution.version_class_final;
 
 /**
  * Created by geely
