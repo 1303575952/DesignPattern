@@ -1,10 +1,10 @@
-package com.felix.design.pattern.structural.composite;
+package com.felix.design.pattern.structural.composite.version_final;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class CourseCatalog extends CatalogComponent {
     private List<CatalogComponent> items = new ArrayList<CatalogComponent>();
@@ -12,7 +12,7 @@ public class CourseCatalog extends CatalogComponent {
     private Integer level;
 
 
-    public CourseCatalog(String name,Integer level) {
+    public CourseCatalog(String name, Integer level) {
         this.name = name;
         this.level = level;
     }
@@ -35,9 +35,9 @@ public class CourseCatalog extends CatalogComponent {
     @Override
     public void print() {
         System.out.println(this.name);
-        for(CatalogComponent catalogComponent : items){
-            if(this.level != null){
-                for(int  i = 0; i < this.level; i++){
+        for (CatalogComponent catalogComponent : items) {
+            if (this.level != null) {
+                for (int i = 0; i < this.level; i++) {
                     System.out.print("  ");
                 }
             }

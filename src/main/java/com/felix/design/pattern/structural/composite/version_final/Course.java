@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.composite;
+package com.felix.design.pattern.structural.composite.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Course extends CatalogComponent {
     private String name;
@@ -24,7 +24,7 @@ public class Course extends CatalogComponent {
 
     @Override
     public void print() {
-        System.out.println("Course Name:"+name+" Price:"+price);
+        System.out.println("Course Name:" + name + " Price:" + price);
     }
 
 }
