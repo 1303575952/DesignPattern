@@ -1,15 +1,13 @@
-package com.felix.design.pattern.creational.builder;
+package com.felix.design.pattern.creational.builder.version_final_1;
 
 /**
- * Created by felix
+ * @author FELIX
  */
 public class Course {
     private String courseName;
     private String coursePPT;
     private String courseVideo;
     private String courseArticle;
-
-    //question & answer
     private String courseQA;
 
     public String getCourseName() {

@@ -1,4 +1,4 @@
-package com.felix.design.pattern.creational.builder;
+package com.felix.design.pattern.creational.builder.version_final_1;
 
 /**
  * Created by felix
