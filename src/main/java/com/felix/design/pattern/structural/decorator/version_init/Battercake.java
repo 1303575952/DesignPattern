@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.decorator.v1;
+package com.felix.design.pattern.structural.decorator.version_init;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Battercake {
     protected String getDesc(){

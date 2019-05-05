@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.decorator.v2;
+package com.felix.design.pattern.structural.decorator.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Test {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Test {
         aBattercake = new EggDecorator(aBattercake);
         aBattercake = new SausageDecorator(aBattercake);
 
-        System.out.println(aBattercake.getDesc()+" 销售价格:"+aBattercake.cost());
+        System.out.println(aBattercake.getDesc() + " 销售价格:" + aBattercake.cost());
 
     }
 }

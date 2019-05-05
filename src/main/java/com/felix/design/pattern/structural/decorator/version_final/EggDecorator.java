@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.decorator.v2;
+package com.felix.design.pattern.structural.decorator.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class EggDecorator extends AbstractDecorator {
     public EggDecorator(ABattercake aBattercake) {
@@ -15,11 +15,11 @@ public class EggDecorator extends AbstractDecorator {
 
     @Override
     protected String getDesc() {
-        return super.getDesc()+" 加一个鸡蛋";
+        return super.getDesc() + " 加一个鸡蛋";
     }
 
     @Override
     protected int cost() {
-        return super.cost()+1;
+        return super.cost() + 1;
     }
 }

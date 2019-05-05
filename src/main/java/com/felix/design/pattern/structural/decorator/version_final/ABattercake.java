@@ -1,10 +1,11 @@
-package com.felix.design.pattern.structural.decorator.v2;
+package com.felix.design.pattern.structural.decorator.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public abstract class ABattercake {
     protected abstract String getDesc();
+
     protected abstract int cost();
 
 }

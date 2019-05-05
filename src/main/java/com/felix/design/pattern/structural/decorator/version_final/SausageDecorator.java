@@ -1,9 +1,9 @@
-package com.felix.design.pattern.structural.decorator.v2;
+package com.felix.design.pattern.structural.decorator.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
-public class SausageDecorator extends AbstractDecorator{
+public class SausageDecorator extends AbstractDecorator {
     public SausageDecorator(ABattercake aBattercake) {
         super(aBattercake);
     }
@@ -15,11 +15,11 @@ public class SausageDecorator extends AbstractDecorator{
 
     @Override
     protected String getDesc() {
-        return super.getDesc()+" 加一根香肠";
+        return super.getDesc() + " 加一根香肠";
     }
 
     @Override
     protected int cost() {
-        return super.cost()+2;
+        return super.cost() + 2;
     }
 }

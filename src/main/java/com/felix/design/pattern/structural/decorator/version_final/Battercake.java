@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.decorator.v2;
+package com.felix.design.pattern.structural.decorator.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Battercake extends ABattercake {
     @Override
