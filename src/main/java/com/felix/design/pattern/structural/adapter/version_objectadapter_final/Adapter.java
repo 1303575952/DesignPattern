@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.adapter.objectadapter;
+package com.felix.design.pattern.structural.adapter.version_objectadapter_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Adapter implements Target{
     private Adaptee adaptee = new Adaptee();

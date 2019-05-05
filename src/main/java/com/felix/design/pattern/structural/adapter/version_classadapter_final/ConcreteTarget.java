@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.adapter.classadapter;
+package com.felix.design.pattern.structural.adapter.version_classadapter_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class ConcreteTarget implements Target {
     @Override
