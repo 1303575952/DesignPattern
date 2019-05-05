@@ -1,7 +1,7 @@
-package com.felix.design.pattern.structural.flyweight;
+package com.felix.design.pattern.structural.flyweight.version_final;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class Manager implements Employee {
     @Override

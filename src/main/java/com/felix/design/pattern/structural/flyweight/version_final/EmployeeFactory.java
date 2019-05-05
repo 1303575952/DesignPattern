@@ -1,10 +1,10 @@
-package com.felix.design.pattern.structural.flyweight;
+package com.felix.design.pattern.structural.flyweight.version_final;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by geely
+ * Created by lifei
  */
 public class EmployeeFactory {
     private static final Map<String,Employee> EMPLOYEE_MAP = new HashMap<String,Employee>();
