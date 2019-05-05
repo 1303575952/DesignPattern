@@ -1,4 +1,4 @@
-package com.felix.design.pattern.structural.facade;
+package com.felix.design.pattern.structural.facade.version_final;
 
 /**
  * Created by felix
