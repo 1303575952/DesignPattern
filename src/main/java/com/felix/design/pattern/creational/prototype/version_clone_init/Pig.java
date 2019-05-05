@@ -1,4 +1,4 @@
-package com.felix.design.pattern.creational.prototype.clone;
+package com.felix.design.pattern.creational.prototype.version_clone_init;
 
 import java.util.Date;
 
@@ -32,11 +32,7 @@ public class Pig implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        Pig pig = (Pig) super.clone();
-
-        //深克隆
-        pig.birthday = (Date) pig.birthday.clone();
-        return pig;
+        return super.clone();
     }
 
     @Override

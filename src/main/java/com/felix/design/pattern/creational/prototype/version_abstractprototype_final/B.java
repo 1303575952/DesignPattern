@@ -1,4 +1,4 @@
-package com.felix.design.pattern.creational.prototype.abstractprototype;
+package com.felix.design.pattern.creational.prototype.version_abstractprototype_final;
 
 /**
  * Created by felix

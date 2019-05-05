@@ -1,9 +1,9 @@
-package com.felix.design.pattern.creational.prototype;
+package com.felix.design.pattern.creational.prototype.version_init;
 
 /**
  * Created by felix
  */
-public class Mail implements Cloneable {
+public class Mail {
     private String name;
     private String emailAddress;
     private String content;
@@ -45,9 +45,4 @@ public class Mail implements Cloneable {
                 '}' + super.toString();
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        System.out.println("clone mail object");
-        return super.clone();
-    }
 }

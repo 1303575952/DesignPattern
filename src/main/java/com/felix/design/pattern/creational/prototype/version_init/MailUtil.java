@@ -1,4 +1,4 @@
-package com.felix.design.pattern.creational.prototype;
+package com.felix.design.pattern.creational.prototype.version_init;
 
 import java.text.MessageFormat;
 
